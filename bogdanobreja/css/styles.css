@@ -1,16 +1,16 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-main {
+main{
     min-height: 120vh;
 }
 
-.app-icon {
+.app-icon{
     font-size: 36px;
     background-color: #3b5998;
-    color: #ffffff;
+    color: white;
     border-radius: 50%;
     width: 1.2em;
     height: 1.2em;
@@ -19,12 +19,12 @@ main {
     justify-content: center;
 }
 
-.search-box {
+.search-box{
     background-color: #adaaaa;
     border: unset;
 }
 
-.gray-icon {
+.gray-icon{
     font-size: 40px;
-    color: gray;
+    color: rgb(189, 165, 165);
 }
