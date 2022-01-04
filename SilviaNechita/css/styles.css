@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    min-height: 200vh;
+}
+
+.app-icon {
+    display: flex;
+    background-color: #3b5998;
+    font-size: 36px;
+    color: #ffffff;
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box {
+    border: unset;
+    background-color: rgb(75, 75, 75);
+}
+
+.grey-icon {
+    font-size: 40px;
+    color: grey;
+}
