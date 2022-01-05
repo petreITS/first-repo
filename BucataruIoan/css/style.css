@@ -7,7 +7,7 @@ main {
     min-height: 120vh;
 }
 
-.app-icon, .end-icon {
+.app-icon, .end-icon, .fa-search {
     color: #ffffff;
     border-radius: 50%;
     width: 1.2em;
@@ -19,7 +19,12 @@ main {
 
 .app-icon {
     font-size: 36px;
+    margin-right: 12px;
     background-color: #3b5998;
+}
+
+#search {
+    display: none;
 }
 
 .gray-icon {
@@ -27,7 +32,7 @@ main {
     color: gray;
 }
 
-.end-icon {
+.end-icon, .fa-search {
     padding: 20px;
     background-color: #505050;
 }
@@ -50,6 +55,39 @@ main {
 .navbar a {
     text-decoration: none;
     color: #ffffff;
+}
+
+/*********************************Media Query STYLE ******************************/
+
+@media (max-width: 992px) {
+
+    #search {
+        display: flex;
+    }
+
+    #left-list, #center-list, .username-image, .name {
+        display: none;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .logo-search-icon {
+        display: flex;
+    }
+
+    .app-icon {
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .plus-item, .comment-item, .bell-item {
+        display: none;
+    }
+
 }
 
 
