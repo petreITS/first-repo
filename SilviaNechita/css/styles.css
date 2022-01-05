@@ -3,28 +3,58 @@
     padding: 0;
 }
 
+:root {
+    --dark-grey: rgb(75, 75, 75);
+}
+
 main {
     min-height: 200vh;
 }
 
-.app-icon {
+.nav-split {
+    flex: 1;
+}
+
+.app-icon, .round-icons {
     display: flex;
-    background-color: #3b5998;
+    border-radius: 50%;
     font-size: 36px;
-    color: #ffffff;
     height: 1.2em;
     width: 1.2em;
-    border-radius: 50%;
     justify-content: center;
     align-items: center;
 }
 
+.app-icon {    
+    background-color: #3b5998;
+    color: #ffffff;
+}
+
 .search-box {
     border: unset;
-    background-color: rgb(75, 75, 75);
+    background-color: var(--dark-grey);
 }
 
 .grey-icon {
     font-size: 40px;
     color: grey;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: white;
+}
+
+#profilePicture {
+    font-size: 40px;
+    height: 1.3em;
+    width: auto;
+}
+
+.round-icons {
+    background-color: var(--dark-grey);    
+}
+
+.small-icon {
+    font-size: 20px;
 }
